@@ -19,6 +19,7 @@ install(
   PROGRAMS scripts/genmsg_check_deps.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
-if(CATKIN_ENABLE_TESTING)
-  catkin_add_nosetests(test)
-endif()
+#Leisheng Mu removed for passing compile arm version.
+#if(CATKIN_ENABLE_TESTING)
+#  catkin_add_nosetests(test)
+#endif()

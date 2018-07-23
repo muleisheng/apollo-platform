@@ -56,9 +56,10 @@ install(TARGETS ${PROJECT_NAME}
 install(DIRECTORY include/class_loader/
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})
 
-if(CATKIN_ENABLE_TESTING)
-  add_subdirectory(test)
-endif()
+#Leisheng Mu removed for passing compile arm version.
+#if(CATKIN_ENABLE_TESTING)
+#  add_subdirectory(test)
+#endif()
 
 if(NOT catkin_FOUND)
   set(TARGET_NAME ${PROJECT_NAME})

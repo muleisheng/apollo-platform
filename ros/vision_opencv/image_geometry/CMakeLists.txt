@@ -31,6 +31,7 @@ install(TARGETS ${PROJECT_NAME}
 )
 
 # add tests
-if(CATKIN_ENABLE_TESTING)
-  add_subdirectory(test)
-endif()
+#Leisheng Mu removed for passing compile arm version.
+#if(CATKIN_ENABLE_TESTING)
+#  add_subdirectory(test)
+#endif()

@@ -78,6 +78,7 @@ install(TARGETS ${PROJECT_NAME}_wrapper
   DESTINATION ${CATKIN_PACKAGE_PYTHON_DESTINATION}
 )
 
-if(CATKIN_ENABLE_TESTING)
-  add_subdirectory(test)
-endif()
+#Leisheng Mu removed for passing compile arm version.
+#if(CATKIN_ENABLE_TESTING)
+#  add_subdirectory(test)
+#endif()

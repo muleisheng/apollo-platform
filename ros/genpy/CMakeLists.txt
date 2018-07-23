@@ -15,6 +15,7 @@ install(FILES ${CATKIN_DEVEL_PREFIX}/${GENMSG_LANGS_DESTINATION}/genpy
 
 catkin_python_setup()
 
-if(CATKIN_ENABLE_TESTING)
-  catkin_add_nosetests(test)
-endif()
+#Leisheng Mu removed for passing compile arm version.
+#if(CATKIN_ENABLE_TESTING)
+#  catkin_add_nosetests(test)
+#endif()
