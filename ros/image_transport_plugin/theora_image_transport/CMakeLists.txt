@@ -31,6 +31,7 @@ include_directories(include
   ${PC_THEORA_INCLUDE_DIRS}
   ${PC_THEORAENC_INCLUDE_DIRS}
   ${PC_THEORADEC_INCLUDE_DIRS}
+  ../../vision_opencv/cv_bridge/include
 )
 
 link_directories(${PC_OGG_LIBRARY_DIRS} 
