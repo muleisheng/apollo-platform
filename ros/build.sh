@@ -67,10 +67,10 @@ function clean() {
 
 function build_ros() {
     
-    apt-get install libgstreamer0.10-dev
-    apt-get install libgstreamer-plugins-base0.10-dev
-    apt-get install libogg-dev
-    apt-get install libtheora-dev
+    echo Y|apt-get install libgstreamer0.10-dev
+    echo Y|apt-get install libgstreamer-plugins-base0.10-dev
+    echo Y|apt-get install libogg-dev
+    echo Y|apt-get install libtheora-dev
 
     rm -f ${FASTRTPS_PATH} ${TP_LIB_PATH}
     ln -sf ${FASTRTPS_PATH}_${MACHINE_ARCH} ${FASTRTPS_PATH} &&
